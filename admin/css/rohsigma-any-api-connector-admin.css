@@ -1,0 +1,39 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.rohsigma-connection-form {
+	max-width: 980px;
+}
+
+.rohsigma-connection-form h3 {
+	margin: 24px 0 10px;
+}
+
+.rohsigma-advanced-toggle-wrap {
+	margin: 8px 0 16px;
+}
+
+.rohsigma-auth-field {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	padding: 14px 18px;
+	margin: 12px 0 20px;
+	border-radius: 4px;
+}
+
+.rohsigma-kv-table td {
+	vertical-align: middle;
+}
+
+.rohsigma-kv-table .regular-text {
+	width: 100%;
+	max-width: none;
+}
+
+.rohsigma-checkbox-group label {
+	display: inline-block;
+	margin-right: 14px;
+	margin-bottom: 6px;
+}
