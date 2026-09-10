@@ -23,9 +23,7 @@
 class Rohsigma_Any_Api_Connector_Activator {
 
 	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
+	 * Runs on plugin activation. No setup is currently required.
 	 *
 	 * @since    1.0.0
 	 */

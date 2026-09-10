@@ -23,9 +23,7 @@
 class Rohsigma_Any_Api_Connector_Deactivator {
 
 	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
+	 * Runs on plugin deactivation. No teardown is currently required.
 	 *
 	 * @since    1.0.0
 	 */
