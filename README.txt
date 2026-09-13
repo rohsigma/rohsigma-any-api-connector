@@ -56,7 +56,6 @@ Support: rich@rohsigma.es
 
 = Advanced settings =
 
-* **Base Path**: An optional path appended to the Base URL, for example `/v1`.
 * **Timeout**: The maximum time WordPress waits for a remote response.
 * **Authentication**: Select None, API Key, Bearer Token, Basic Auth, or OAuth2 and complete the required fields.
 * **Default Headers**: Header/value pairs sent with every request.
@@ -80,7 +79,7 @@ You can override saved query parameters for a request by passing an object as th
 
 `window.rohsigmaAnyApiConnectorRawRequest('connectionKey', { zone: 'ES' }).then(function (result) { console.log(result.rawBody); });`
 
-Do not put API keys, bearer tokens, passwords, or OAuth client secrets into browser JavaScript. Use server-side requests or a protected WordPress REST route for authenticated APIs.
+Do not put API keys, bearer tokens, passwords, or OAuth client secrets into browser JavaScript. Use a separate server-side request.
 
 The helper is intentionally a starting point for a custom frontend. Add the authentication, authorization, input validation, rate limiting, output escaping, and abuse prevention required by your application. Do not treat a public feed as a substitute for application-level access control.
 
