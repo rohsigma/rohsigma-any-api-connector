@@ -129,10 +129,6 @@ if ( $rohsigma_any_api_connector_has_test_result ) {
             <table class="form-table" role="presentation">
                 <tbody>
                 <tr>
-                    <th scope="row"><label for="rohsigma_connection_base_path"><?php echo esc_html__( 'Base Path (Optional)', 'rohsigma-any-api-connector' ); ?></label></th>
-                    <td><input name="rohsigma_connection[base_path]" type="text" id="rohsigma_connection_base_path" class="regular-text code" placeholder="/v1" value="<?php echo esc_attr( $rohsigma_any_api_connector_connection['base_path'] ); ?>"></td>
-                </tr>
-                <tr>
                     <th scope="row"><label for="rohsigma_connection_timeout"><?php echo esc_html__( 'Timeout (seconds)', 'rohsigma-any-api-connector' ); ?></label></th>
                     <td><input name="rohsigma_connection[timeout]" type="number" id="rohsigma_connection_timeout" class="small-text" min="1" value="<?php echo esc_attr( $rohsigma_any_api_connector_connection['timeout'] ); ?>"></td>
                 </tr>
