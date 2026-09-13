@@ -30,7 +30,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
     <h2><?php echo esc_html__( 'Advanced Options', 'rohsigma-any-api-connector' ); ?></h2>
     <ul>
-        <li><strong><?php echo esc_html__( 'Base Path:', 'rohsigma-any-api-connector' ); ?></strong> <?php echo esc_html__( 'An optional path added after the Base URL, such as /v1 or /cheapest-hours.', 'rohsigma-any-api-connector' ); ?></li>
         <li><strong><?php echo esc_html__( 'Timeout:', 'rohsigma-any-api-connector' ); ?></strong> <?php echo esc_html__( 'The maximum number of seconds WordPress waits for the remote API response.', 'rohsigma-any-api-connector' ); ?></li>
         <li><strong><?php echo esc_html__( 'Authentication:', 'rohsigma-any-api-connector' ); ?></strong> <?php echo esc_html__( 'Choose None, API Key, Bearer Token, Basic Auth, or OAuth2, then complete only the fields required by that API.', 'rohsigma-any-api-connector' ); ?></li>
         <li><strong><?php echo esc_html__( 'Default Headers:', 'rohsigma-any-api-connector' ); ?></strong> <?php echo esc_html__( 'Header/value pairs attached to every request, such as Accept: application/json.', 'rohsigma-any-api-connector' ); ?></li>
