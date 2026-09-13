@@ -118,56 +118,7 @@ class Rohsigma_Any_Api_Connector_Admin {
 		include_once plugin_dir_path( __FILE__ ) . 'partials/rohsigma-any-api-connector-admin-instructions.php';
 	}
 
-	/**
-	 * Register the frontend API proxy route.
-	 *
-	 * @since 1.0.0
-	 */
-	public function register_rest_routes() {
-		register_rest_route(
-			'rohsigma-any-api-connector/v1',
-			'/request',
-			array(
-				'methods'             => 'GET',
-				'callback'            => array( $this, 'handle_rest_request' ),
-				'permission_callback' => '__return_true',
-			)
-		);
-	}
-
-	/**
-	 * Run the saved connection through the REST API.
-	 *
-	 * @since 1.0.0
-	 * @return WP_REST_Response
-	 */
-	public function handle_rest_request() {
-		$connection = $this->get_saved_connection();
-		if ( empty( $connection['enabled'] ) ) {
-			return new WP_REST_Response(
-				array(
-					'success' => false,
-					'message' => __( 'This API connection is disabled.', 'rohsigma-any-api-connector' ),
-				),
-				403
-			);
-		}
-
-		$result = $this->test_api_connection();
-		$status_code = isset( $result['response']['status_code'] ) ? absint( $result['response']['status_code'] ) : ( ! empty( $result['success'] ) ? 200 : 502 );
-
-		return new WP_REST_Response(
-			array(
-				'success' => ! empty( $result['success'] ),
-				'message' => isset( $result['message'] ) ? $result['message'] : '',
-				'response' => array(
-					'status_code' => $status_code,
-					'body'        => isset( $result['response']['body'] ) ? $result['response']['body'] : '',
-				),
-			),
-			$status_code
-		);
-	}
+	
 	/**
 	 * Run API test when the test form is submitted.
 	 *
