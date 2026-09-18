@@ -1,4 +1,4 @@
-=== Rohsigma Any API Connector ===
+=== rohsigma any api connector ===
 Contributors: rohsigma
 Tags: api, rest api, javascript, integration, connector
 Requires at least: 5.8
