@@ -9,7 +9,7 @@
  * that starts the plugin.
  *
  * @link              https://www.rohsigma.es/
- * @since             1.0.0
+ * @since             1.0.1
  * @package           Rohsigma_Any_Api_Connector
  *
  * @wordpress-plugin
@@ -31,7 +31,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 
-define( 'ROHSIGMA_ANY_API_CONNECTOR_VERSION', '1.0.0' );
+define( 'ROHSIGMA_ANY_API_CONNECTOR_VERSION', '1.0.1' );
 
 /**
  * The code that runs during plugin activation.
