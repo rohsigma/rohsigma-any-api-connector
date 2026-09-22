@@ -3,7 +3,7 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       https://rohsigma.com
+ * @link       https://rohsigma.es
  * @since      1.0.0
  *
  * @package    Rohsigma_Any_Api_Connector
@@ -18,7 +18,7 @@
  *
  * @package    Rohsigma_Any_Api_Connector
  * @subpackage Rohsigma_Any_Api_Connector/admin
- * @author     rohsigma <rich@rohsigma.com>
+ * @author     rohsigma <rich@rohsigma.es>
  */
 class Rohsigma_Any_Api_Connector_Admin {
 
