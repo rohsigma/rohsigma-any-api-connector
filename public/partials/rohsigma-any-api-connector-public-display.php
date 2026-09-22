@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * This file is used to markup the public-facing aspects of the plugin.
  *
- * @link       https://rohsigma.com
+ * @link       https://rohsigma.es
  * @since      1.0.0
  *
  * @package    Rohsigma_Any_Api_Connector
