@@ -1,9 +1,9 @@
-=== rohsigma any api connector ===
+=== Rohsigma Any API Connector ===
 Contributors: rohsigma
 Tags: api, rest api, javascript, integration, connector
 Requires at least: 5.8
 Tested up to: 7.1
-Stable tag: 1.0.1
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ Use the built-in Test Connection tool to inspect the remote response before buil
 
 The plugin provides a small frontend helper for developers who want to connect their own interface to a public feed. The plugin supplies the connection and feed access; the site owner or developer remains responsible for the frontend interface, user authentication, permissions, validation, and other application-specific prevention measures.
 
-Developed by Rohsigma.
+Developed by Richard Simmons.
 
 Website: https://rohsigma.es/
 Support: rich@rohsigma.es
