@@ -3,7 +3,7 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       https://rohsigma.com
+ * @link       https://rohsigma.es
  * @since      1.0.0
  *
  * @package    Rohsigma_Any_Api_Connector
@@ -18,7 +18,7 @@
  * @since      1.0.0
  * @package    Rohsigma_Any_Api_Connector
  * @subpackage Rohsigma_Any_Api_Connector/includes
- * @author     rohsigma <rich@rohsigma.com>
+ * @author     rohsigma <rich@rohsigma.es>
  */
 class Rohsigma_Any_Api_Connector_Deactivator {
 

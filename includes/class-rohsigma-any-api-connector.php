@@ -6,7 +6,7 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       https://rohsigma.com
+ * @link       https://rohsigma.es
  * @since      1.0.0
  *
  * @package    Rohsigma_Any_Api_Connector
@@ -25,7 +25,7 @@
  * @since      1.0.0
  * @package    Rohsigma_Any_Api_Connector
  * @subpackage Rohsigma_Any_Api_Connector/includes
- * @author     rohsigma <rich@rohsigma.com>
+ * @author     rohsigma <rich@rohsigma.es>
  */
 class Rohsigma_Any_Api_Connector {
 
