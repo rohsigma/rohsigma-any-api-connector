@@ -9,15 +9,15 @@
  * that starts the plugin.
  *
  * @link              https://www.rohsigma.es/
- * @since             1.0.1
+ * @since             1.0.0
  * @package           Rohsigma_Any_Api_Connector
  *
  * @wordpress-plugin
  * Plugin Name:       Rohsigma Any API Connector
  * Plugin URI:        https://www.rohsigma.es/any-api-connector-wordpress-free-plugin/
  * Description:       The plugin allows users to connect any REST API to WordPress using a simple configuration form. Once connected, the API becomes available globally to JavaScript or any frontend script without requiring additional backend development.
- * Version:           1.0.0
- * Author:            rohsigma
+ * Version:           1.0.5
+ * Author:            Richard Simmons
  * Author URI:        https://www.rohsigma.es/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -31,7 +31,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 
-define( 'ROHSIGMA_ANY_API_CONNECTOR_VERSION', '1.0.1' );
+define( 'ROHSIGMA_ANY_API_CONNECTOR_VERSION', '1.0.5' );
 
 /**
  * The code that runs during plugin activation.
