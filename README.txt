@@ -3,7 +3,7 @@ Contributors: rohsigma
 Tags: api, rest api, javascript, integration, connector
 Requires at least: 5.8
 Tested up to: 7.1
-Stable tag: 1.0.5
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,7 +26,7 @@ Support: rich@rohsigma.es
 
 * Configure a REST API base URL and optional base path.
 * Add default request parameters and headers.
-* Configure no authentication, API key, bearer token, Basic Auth, or OAuth2 credentials.
+* Configure no authentication, API key, bearer token, Basic Auth.
 * Restrict allowed request methods and optional endpoint paths.
 * Configure cache and rate-limit settings.
 * Test a saved connection from the WordPress admin area.
@@ -57,7 +57,7 @@ Support: rich@rohsigma.es
 = Advanced settings =
 
 * **Timeout**: The maximum time WordPress waits for a remote response.
-* **Authentication**: Select None, API Key, Bearer Token, Basic Auth, or OAuth2 and complete the required fields.
+* **Authentication**: Select None, API Key, Bearer Token, Basic Auth and complete the required fields.
 * **Default Headers**: Header/value pairs sent with every request.
 * **Default Parameters**: Values sent with every request. GET requests use query parameters; other request methods use body values.
 * **Allowed Endpoints**: Optional `METHOD /path` entries used to define routes.
@@ -112,7 +112,7 @@ The plugin omits bearer tokens, passwords, OAuth client secrets, and API-key val
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.6 =
 * Initial release.
 
 == Support ==
