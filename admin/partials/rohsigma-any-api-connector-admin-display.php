@@ -140,7 +140,6 @@ if ( $rohsigma_any_api_connector_has_test_result ) {
                             <option value="api_key" <?php selected( $rohsigma_any_api_connector_auth_type, 'api_key' ); ?>><?php echo esc_html__( 'API Key', 'rohsigma-any-api-connector' ); ?></option>
                             <option value="bearer" <?php selected( $rohsigma_any_api_connector_auth_type, 'bearer' ); ?>><?php echo esc_html__( 'Bearer Token', 'rohsigma-any-api-connector' ); ?></option>
                             <option value="basic" <?php selected( $rohsigma_any_api_connector_auth_type, 'basic' ); ?>><?php echo esc_html__( 'Basic Auth', 'rohsigma-any-api-connector' ); ?></option>
-                            <option value="oauth2" <?php selected( $rohsigma_any_api_connector_auth_type, 'oauth2' ); ?>><?php echo esc_html__( 'OAuth2', 'rohsigma-any-api-connector' ); ?></option>
                         </select>
                     </td>
                 </tr>
@@ -179,25 +178,6 @@ if ( $rohsigma_any_api_connector_has_test_result ) {
             </p>
         </div>
 
-        <div class="rohsigma-auth-field rohsigma-auth-oauth2" hidden>
-            <h3><?php echo esc_html__( 'OAuth2 Settings', 'rohsigma-any-api-connector' ); ?></h3>
-            <p>
-                <label for="rohsigma_auth_oauth2_token_url"><?php echo esc_html__( 'Token URL', 'rohsigma-any-api-connector' ); ?></label><br>
-                <input name="rohsigma_connection[auth][oauth2][token_url]" type="url" id="rohsigma_auth_oauth2_token_url" class="regular-text code" placeholder="https://api.example.com/oauth/token" value="<?php echo esc_attr( isset( $rohsigma_any_api_connector_auth_credentials['token_url'] ) ? $rohsigma_any_api_connector_auth_credentials['token_url'] : '' ); ?>">
-            </p>
-            <p>
-                <label for="rohsigma_auth_oauth2_client_id"><?php echo esc_html__( 'Client ID', 'rohsigma-any-api-connector' ); ?></label><br>
-                <input name="rohsigma_connection[auth][oauth2][client_id]" type="text" id="rohsigma_auth_oauth2_client_id" class="regular-text" value="<?php echo esc_attr( isset( $rohsigma_any_api_connector_auth_credentials['client_id'] ) ? $rohsigma_any_api_connector_auth_credentials['client_id'] : '' ); ?>">
-            </p>
-            <p>
-                <label for="rohsigma_auth_oauth2_client_secret"><?php echo esc_html__( 'Client Secret', 'rohsigma-any-api-connector' ); ?></label><br>
-                <input name="rohsigma_connection[auth][oauth2][client_secret]" type="password" id="rohsigma_auth_oauth2_client_secret" class="regular-text" autocomplete="off" value="<?php echo esc_attr( isset( $rohsigma_any_api_connector_auth_credentials['client_secret'] ) ? $rohsigma_any_api_connector_auth_credentials['client_secret'] : '' ); ?>">
-            </p>
-            <p>
-                <label for="rohsigma_auth_oauth2_scope"><?php echo esc_html__( 'Scope (Optional)', 'rohsigma-any-api-connector' ); ?></label><br>
-                <input name="rohsigma_connection[auth][oauth2][scope]" type="text" id="rohsigma_auth_oauth2_scope" class="regular-text" placeholder="read write" value="<?php echo esc_attr( isset( $rohsigma_any_api_connector_auth_credentials['scope'] ) ? $rohsigma_any_api_connector_auth_credentials['scope'] : '' ); ?>">
-            </p>
-        </div>
 
         <h3><?php echo esc_html__( 'Default Headers', 'rohsigma-any-api-connector' ); ?></h3>
         <p class="description"><?php echo esc_html__( 'Headers are attached to every request for this connection.', 'rohsigma-any-api-connector' ); ?></p>
