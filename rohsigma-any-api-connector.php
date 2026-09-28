@@ -16,7 +16,7 @@
  * Plugin Name:       Rohsigma Any API Connector
  * Plugin URI:        https://www.rohsigma.es/any-api-connector-wordpress-free-plugin/
  * Description:       The plugin allows users to connect any REST API to WordPress using a simple configuration form. Once connected, the API becomes available globally to JavaScript or any frontend script without requiring additional backend development.
- * Version:           1.0.5
+ * Version:           1.0.7
  * Author:            Richard Simmons
  * Author URI:        https://www.rohsigma.es/
  * License:           GPL-2.0+
@@ -31,7 +31,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 
-define( 'ROHSIGMA_ANY_API_CONNECTOR_VERSION', '1.0.5' );
+define( 'ROHSIGMA_ANY_API_CONNECTOR_VERSION', '1.0.7' );
 
 /**
  * The code that runs during plugin activation.
